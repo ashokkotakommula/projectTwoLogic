@@ -1,0 +1,14 @@
+POST  http://localhost:8000/api/addcard
+Content-Type: application/json
+
+{
+    "image": {
+       "url": "https://logichive.in/wp-content/uploads/2018/10/web-design-development-845x321.jpg"
+    },
+    "head": "Web Application Development",
+    "content": "Get your website designed today by professional designers in latest technology. Cost Effective Solution and Scalable Solution."
+}
+
+###
+
+GET http://localhost:8000/api/allcards
